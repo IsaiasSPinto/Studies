@@ -5,11 +5,11 @@
 1. [What is Markdown](#what-is-markdown)
 2. [Headings](#headings)
 3. [Text Styling](#text-styling)
-4. [Block quote](#blockquote)
+4. [Block quote](#block-quote)
 5. [Code Blocks](#code-blocks)
 6. [Lists](#lists)
-	* [Ordered Lists](#ordered-lists)
-	* [Unordered Lists](#unordered-lists)
+   * [Ordered Lists](#ordered-lists)
+   * [Unordered Lists](#unordered-lists)
 7. [Images](#images)
 8. [Links](#links)
 9. [Tables](#tables)
@@ -132,7 +132,7 @@ We can add checklists easily, - [ ] to make an unchecked item, - [ X ] to add a 
 
 - [ ] First Item
 - [ ] Second Item
-- [X] Third Item 
+- [x] Third Item 
 
 ## Heading IDs
 
