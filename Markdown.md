@@ -1,11 +1,22 @@
+# Markdown
 
 ## Contents
 
-1. [What is Markdown](#teste)
-2. [Blockquote](#Blockquote)
-3. 
+1. [What is Markdown](#what-is-markdown)
+2. [Headings](#headings)
+3. [Text Styling](#text-styling)
+4. [Block quote](#blockquote)
+5. [Code Blocks](#code-blocks)
+6. [Lists](#lists)
+	* [Ordered Lists](#ordered-lists)
+	* [Unordered Lists](#unordered-lists)
+7. [Images](#images)
+8. [Links](#links)
+9. [Tables](#tables)
+10. [Task List](#task-list)
+11. [Heading IDs](#heading-ids)
 
-
+<div style="page-break-after: always;"></div>
 
 ## What is Markdown
 
@@ -14,7 +25,7 @@ Markdown is a simple markup language that converts text into HTML using only spe
 ## Headings 
 
 In markdown syntax, we have six weights of headings differentiated by the amount of # before the text.
- 
+
 # Heading 1
 
 ## Heading 2
@@ -27,23 +38,27 @@ In markdown syntax, we have six weights of headings differentiated by the amount
 
 ###### Heading 6
 
+
+
 ## Text Styling
 
 We can style the text in different ways.
 
-| Caracter | Style | Exemple |
-| :--------------: | :--------: | :--------------: |
-| ** | Bold | **Text** |
-| * | Italic | *Text* |
-| *** | Bold and Italic | *** Text *** |
-| ~~ | Strikethrough | ~~Text~~ |
-| == | Highlight | ==Text== |
+| Character |      Style      |   Example    |
+| :-------: | :-------------: | :----------: |
+|    **     |      Bold       |   **Text**   |
+|     *     |     Italic      |    *Text*    |
+|    ***    | Bold and Italic | *** Text *** |
+|    ~~     | Strike through  |   ~~Text~~   |
+|    ==     |    Highlight    |   ==Text==   |
 
-## Blockquote
+<div style="page-break-after: always;"></div>
 
-If we need a blockquote is very simple, we only need to add a > before the text. 
+## Block quote
 
-> A blockquote exemple
+If we need a block quote is very simple, we only need to add a > before the text. 
+
+> A block quote example
 
 ## Code Blocks
 
@@ -63,17 +78,19 @@ To do this, we need to put \`\`\`\ and the name of the code language, to result 
 </html>
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Lists
 
 There are two types of lists in markdown.
 
 ### Ordered Lists
 
-To create an ordered list, the numbers dont need to be in order, but the list should start with the number one.
+To create an ordered list, the numbers don't need to be in order, but the list should start with the number one.
 
 1. First
 2. Second
-3. Thirt
+3. Thirty
 4. Fourth
 
 ### Unordered Lists
@@ -85,15 +102,17 @@ To start an unordered list, you can use characters like -, *, and +, but for com
 - Item
 - Item
 
+<div style="page-break-after: always;"></div>
+
 ## Images
 
-To insert images in the Markdown file, we need to put \!\[\[path to image\]\], or we can use the image tag from HTML.
+To insert images in the Markdown file, we need to put \!\[\[path to image\]\], or we can use the image tag from HTML and \!\[alt Text\]\(path or URL\).
 
-![[download.png]]
+![Penguin](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Tux_Enhanced.svg/154px-Tux_Enhanced.svg.png)
 
 ## Links
 
-To add a link, we use \[google\]\(htttp://google.com\)
+To add a link, we use \[Google\]\(htttp://google.com\)
 
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
 
@@ -102,8 +121,10 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best sea
 To create a table, use --- three or more hyphens to make each column header and | separate each column. We can do a different type of alignment inside of the table by adding a colon (:--- ) to align left, ( :---: ) to align center, and ( ---: ) to align right. 
 
 | Right | Center | Left |
-| :--- | :---: | ---: |
-| Text | Text | Text |
+| :---- | :----: | ---: |
+| Text  |  Text  | Text |
+
+<div style="page-break-after: always;"></div>
 
 ## Task List 
 
@@ -116,7 +137,3 @@ We can add checklists easily, - [ ] to make an unchecked item, - [ X ] to add a 
 ## Heading IDs
 
 We can set IDs to any heading for making links. \#\#\# Heading { #custom-id }.
-
-
-
-
